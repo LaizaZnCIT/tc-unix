@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ "$(-f *.html)" = "1" ]; then
+	cp *.html ..
+fi	
